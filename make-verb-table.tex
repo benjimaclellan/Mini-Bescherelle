@@ -1,0 +1,25 @@
+\begin{minipage}{\linewidth}
+
+\newcommand{\HeaderTop}[1]{\textsc{#1}}
+\newcommand{\HeaderSide}[1]{\textsc{#1}}
+
+\textbf{\Verb[1]} -- \textit{\Verb[2]}
+\vspace{-0.5em}
+\begin{table}[H]
+    \TableSize
+	%\begin{center}
+		\begin{tabular}{r||c|c|c|c}
+		     & \HeaderTop{Pres} & \HeaderTop{PassPart} & \HeaderTop{Imparfait} & \HeaderTop{FutSimp} \\
+			\HeaderSide{je} & \Present[1] & \PasseCompose[1] & \Imparfait[1] & \FutureSimple[1] \\
+			\HeaderSide{tu} & \Present[2] & \PasseCompose[1] & \Imparfait[2] & \FutureSimple[2] \\
+			\HeaderSide{il/elle/on} &\Present[3]  & \PasseCompose[1] & \Imparfait[3] &\FutureSimple[3] \\
+			\HeaderSide{nous} & \Present[4] & \PasseCompose[1] & \Imparfait[4] &\FutureSimple[4] \\
+			\HeaderSide{vous} & \Present[5] &\PasseCompose[1] & \Imparfait[5] & \FutureSimple[5] \\
+			\HeaderSide{ils/elles} &\Present[6]  &\PasseCompose[1] & \Imparfait[6] &\FutureSimple[6] 
+		\end{tabular}
+	%\end{center}
+\end{table}
+
+\vspace{0.2em}
+
+\end{minipage}

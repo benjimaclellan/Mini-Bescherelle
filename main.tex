@@ -1,0 +1,233 @@
+\documentclass[french]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+%\usepackage{booktabs}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{multicol}
+\usepackage{babel}
+\usepackage{float}
+\usepackage{listofitems}
+\setlength\parindent{0pt}
+\setlength{\columnseprule}{0pt}
+\pagenumbering{gobble}
+\newcommand{\TableSize}{\footnotesize}
+\newcommand{\FontSize}{\small}
+
+%% TO USE:
+% To add a new verb, simply copy and paste the following, remove the '%' sign before each line, and change the conjugations accordingly. Right now, it only has present, past participle, imparfait, and future simple -- but you are more than welcome to use this template to add more (Overleaf is a good platform for LaTeX editing). 
+
+% %----------------------------------------
+% \readlist\Verb{verb,english translation}
+% \readlist\Present{je,tu,il,nous,vous,ils} 
+% \readlist\PasseCompose{je} 
+% \readlist\Imparfait{je,tu,il,nous,vous,ils} 
+% \readlist\FutureSimple{je,tu,il,nous,vous,ils} 
+% \input{make-verb-table.tex}
+
+\begin{document}
+
+\FontSize
+
+\begin{multicols*}{2}
+
+%\textbf{Verbs to add:}
+
+%----------------------------------------
+\readlist\Verb{être,to do}
+\readlist\Present{suis,es,est,sommes,êtes,sont} 
+\readlist\PasseCompose{été} 
+\readlist\Imparfait{étais,étais,était,étions,étiez,étaient} 
+\readlist\FutureSimple{serai,seras,sera,serons,serez,seront} 
+\input{make-verb-table.tex}
+
+
+%----------------------------------------
+\readlist\Verb{avoir,to have}
+\readlist\Present{ai,as,a,avons,avez,ont} 
+\readlist\PasseCompose{eu} 
+\readlist\Imparfait{avais,avais,avait,avions,aviez,avaient} 
+\readlist\FutureSimple{aurai,auras,aura,aurons,aurez,auront} 
+\input{make-verb-table.tex}
+
+
+%----------------------------------------
+\readlist\Verb{aller,to go}
+\readlist\Present{vais,vas,va,allons,allez,vont} 
+\readlist\PasseCompose{allé} 
+\readlist\Imparfait{allais,allais,allait,allions,alliez,allaient} 
+\readlist\FutureSimple{irai,iras,ira,irons,irez,iront} 
+\input{make-verb-table.tex}
+
+
+%----------------------------------------
+\readlist\Verb{faire,to do/to make}
+\readlist\Present{fais,fais,fait,faisons,faites,font} 
+\readlist\PasseCompose{fait} 
+\readlist\Imparfait{faisais,faisais,faisait,faisions,faisiez,faisaient} 
+\readlist\FutureSimple{ferai,feras,fera,ferons,ferez,feront} 
+\input{make-verb-table.tex}
+
+%----------------------------------------
+\readlist\Verb{vouloir,to want}
+\readlist\Present{veux,veux,veut,voulons,voulez,veulent} 
+\readlist\PasseCompose{voulu} 
+\readlist\Imparfait{voulais,voulais,voulait,voulions,vouliez,voulaient} 
+\readlist\FutureSimple{voudrai,voudras,voudra,voudrons,voudrez,voudront} 
+\input{make-verb-table.tex}
+
+%----------------------------------------
+\readlist\Verb{pouvoir,to be able to}
+\readlist\Present{peux,peux,peut,pouvons,pouvez,peuvent} 
+\readlist\PasseCompose{pu} 
+\readlist\Imparfait{pouvais,pouvais,pouvait,pouvions,pouviez,pouvaient}
+\readlist\FutureSimple{pourrai,pourras,pourra,pourrons,pourrez,pourront}
+\input{make-verb-table.tex}
+
+%----------------------------------------
+\readlist\Verb{savoir,to know}
+\readlist\Present{sais,sais,sait,savons,savez,savent} 
+\readlist\PasseCompose{su} 
+\readlist\Imparfait{savais,savais,savait,savions,saviez,savaient} 
+\readlist\FutureSimple{saurai,sauras,saura,saurons,saurez,sauront} 
+\input{make-verb-table.tex}
+
+%----------------------------------------
+ \readlist\Verb{voir,to see}
+ \readlist\Present{vois,vois,voit,voyons,voyez,voient} 
+ \readlist\PasseCompose{vu} 
+ \readlist\Imparfait{voyais,voyais,voyait,voyions,voyiez,voyaient} 
+ \readlist\FutureSimple{verrai,verras,verra,verrons,verrez,verront} 
+ \input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{prendre,to take}
+\readlist\Present{prends,prends,prend,prenons,prenez,prennent} 
+\readlist\PasseCompose{pris} 
+\readlist\Imparfait{prenais,prenais,prenait,prenions,preniez,prenaient}
+\readlist\FutureSimple{prendrai,prendras,prendra,prendrons,prendrez,prendront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{rendre,to give back/to return}
+\readlist\Present{rends,rends,rend,rendons,rendez,rendent} 
+\readlist\PasseCompose{rendu} 
+\readlist\Imparfait{rendais,rendais,rendait,rendions,rendiez,rendaient} 
+\readlist\FutureSimple{rendrai,rendras,rendra,rendrons,rendrez,rendront} 
+\input{make-verb-table.tex}
+
+
+% %----------------------------------------
+\readlist\Verb{apprendre,to learn}
+\readlist\Present{apprends,apprends,apprend,apprenons,apprenez,apprennent} 
+\readlist\PasseCompose{appris} 
+\readlist\Imparfait{apprenais,apprenais,apprenait,apprenions,appreniez,apprenaient} 
+\readlist\FutureSimple{apprendrai,apprendras,apprendra,apprendrons,apprendrez,apprendront} 
+\input{make-verb-table.tex}
+
+
+
+% %----------------------------------------
+\readlist\Verb{comprendre,to understand}
+\readlist\Present{comprends,comprends,comprend,comprenons,comprenez,comprenent} 
+\readlist\PasseCompose{compris} 
+\readlist\Imparfait{comprenais,comprenais,comprenait,comprenions,compreniez,comprenaient} 
+\readlist\FutureSimple{comprendrai,comprendras,comprendra,comprendrons,comprondrez,comprondront} 
+\input{make-verb-table.tex}
+
+
+% %----------------------------------------
+\readlist\Verb{mettre,to put}
+\readlist\Present{mets,mets,met,mettons,mettez,mettent} 
+\readlist\PasseCompose{mis} 
+\readlist\Imparfait{mettais,mettais,mettait,mettions,mettiez,mettaient} 
+\readlist\FutureSimple{mettrai,mettras,mettra,mettrons,mettrez,mettront} 
+\input{make-verb-table.tex}
+
+
+% %----------------------------------------
+\readlist\Verb{devoir,to must}
+\readlist\Present{dois,dois,doit,devons,devez,devent} 
+\readlist\PasseCompose{dû} 
+\readlist\Imparfait{devais,devais,devait,devions,deviez,devaient} 
+\readlist\FutureSimple{devrai,devras,devra,devrons,devrez,devront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{donner,to give}
+\readlist\Present{donne,donnes,donne,donnons,donnez,donnent} 
+\readlist\PasseCompose{donné} 
+\readlist\Imparfait{donnais,donnais,donnait,donnient,donniez,donnaient} 
+\readlist\FutureSimple{donnerai,donneras,donnera,donnerons,donnerez,donneront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{connâitre,to know/be familiar with}
+\readlist\Present{connais,connais,connait,connaissons,connaissez,connaissent} 
+\readlist\PasseCompose{connu} 
+\readlist\Imparfait{connaissais,connaissais,connaissait,connaissions,connaissiez,connaissaient} 
+\readlist\FutureSimple{connâitrai,connâitras,connâitra,connâitrons,connâitrez,connâitront} 
+\input{make-verb-table.tex}
+
+
+% %----------------------------------------
+\readlist\Verb{lire,to read}
+\readlist\Present{lis,lis,lit,lisons,lisez,lisent} 
+\readlist\PasseCompose{lu} 
+\readlist\Imparfait{lisais,lisais,lisait,lisions,lisiez,lisaient} 
+\readlist\FutureSimple{lirai,liras,lira,lirons,lirez,liront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{écrire,to write}
+\readlist\Present{écris,écris,écrit,écrivons,écrivez,écrivent} 
+\readlist\PasseCompose{écrit} 
+\readlist\Imparfait{écrivais,écrivais,écvrivait,écrivions,écriviez,écrivaient} 
+\readlist\FutureSimple{écrirai,écriras,écrira,écrirons,écrirez,écriront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{dire,to say}
+\readlist\Present{dis,dis,dit,disons,dites,disent} 
+\readlist\PasseCompose{dit} 
+\readlist\Imparfait{disais,disais,disait,disions,disiez,disaient} 
+\readlist\FutureSimple{dirai,diras,dira,dirons,direz,diront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{sentir,to feel/smell}
+\readlist\Present{sens,sens,sent,sentons,sentez,sentent} 
+\readlist\PasseCompose{senti} 
+\readlist\Imparfait{sentais,sentais,sentait,sentions,sentiez,sentaient} 
+\readlist\FutureSimple{sentirai,sentiras,sentira,sentirons,sentirez,sentiront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{sortir,to go out}
+\readlist\Present{sors,sors,sort,sortons,sortez,sortent} 
+\readlist\PasseCompose{sorti} 
+\readlist\Imparfait{sortais,sortais,sortait,sortions,sortiez,sortaient} 
+\readlist\FutureSimple{sortirai,sortiras,sortira,sortirons,sortirez,sortiront} 
+\input{make-verb-table.tex}
+
+% %----------------------------------------
+\readlist\Verb{venir,to come}
+\readlist\Present{viens,viens,vient,venons,venez,viennent} 
+\readlist\PasseCompose{venu (e)} 
+\readlist\Imparfait{venais,venais,venait,venions,veniez,venaient} 
+\readlist\FutureSimple{viendrai,viendras,viendra,viendrons,viendrez,viendront} 
+\input{make-verb-table.tex}
+
+
+% %----------------------------------------
+\readlist\Verb{partir,to leave}
+\readlist\Present{pars,pars,part,partons,partez,partent} 
+\readlist\PasseCompose{parti} 
+\readlist\Imparfait{partais,partais,partait,partions,partiez,partaient} 
+\readlist\FutureSimple{partirai,partiras,partira,partirons,partirez,partiront} 
+\input{make-verb-table.tex}
+
+
+\end{multicols*}
+\end{document}
